@@ -23,8 +23,32 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
+header > img {
+  width: 100px;
+}
 body {
+  background: lightblue;
   line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  font-size: 38px;
+}
+h2 {
+  font-size: 32px;
+}
+.Ingredients-List {
+  list-style: square inside;
+
+}
+.Directions {
+  list-style: square inside;
+
+}
+ul, li, a {
+  text-decoration: none; 
+  color: inherit;
+
 }
 ol, ul {
   list-style: none;
